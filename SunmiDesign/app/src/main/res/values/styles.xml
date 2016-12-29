@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" />
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/ripple_bg_item</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="myTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- 允许使用transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <!-- 指定进入和退出transitions -->
+        <!--<item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>-->
+
+        <!-- 指定shared element transitions -->
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/explode</item>
+        <item name="android:windowSharedElementExitTransition">@transition/explode</item>-->
+    </style>
+</resources>

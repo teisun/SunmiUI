@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <sunmi.sunmiui.view.ErrorView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <sunmi.sunmiui.view.LoadView
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showNoNet"
+            android:text="showNoNet" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showServerError"
+            android:text="showServerError" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showNoOrder"
+            android:text="showNoOrder" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showLoad"
+            android:text="showLoad" />
+    </LinearLayout>
+
+
+</RelativeLayout>

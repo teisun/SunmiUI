@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/simple_shared"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:onClick="simpleSharedElementTransition"
+            android:text="简单共享元素动画" />
+
+        <Button
+            android:id="@+id/custom_shared"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:textSize="20sp"
+            android:background="@drawable/circle_shape"
+            android:onClick="customSharedElementTransition"
+            android:text="自定义共享元素动画" />
+        <ImageView
+            android:id="@+id/img_shared"
+            android:onClick="imgSharedElementTransition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pic"/>
+        <ImageView
+            android:onClick="Palette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pic"/>
+        <TextView
+            android:id="@+id/test"
+            android:textColor="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+    </LinearLayout>
+
+</ScrollView>

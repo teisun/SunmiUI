@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:paddingTop="37.3dp">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="37.3dp"
+        android:layout_marginRight="37.3dp"
+        android:gravity="center_horizontal"
+        android:text="的数据库发货速度快时间的话福克斯的金凤凰会计师"
+        android:textColor="#222222"
+        android:textSize="18.6sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/msg"
+        android:layout_marginTop="37.3dp"
+        android:background="@color/CD2D2D2" />
+
+    <TextView
+        android:id="@+id/btnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="53.3dp"
+        android:layout_below="@+id/line"
+        android:gravity="center"
+        android:text="按鈕"
+        android:background="@drawable/ripple_bg_bottom"
+        android:clickable="true"
+        android:textColor="#222222"
+        android:textSize="18.6sp" />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="18.6dp"
+        android:text="商米"
+        android:textColor="#666666"
+        android:textSize="21.3sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

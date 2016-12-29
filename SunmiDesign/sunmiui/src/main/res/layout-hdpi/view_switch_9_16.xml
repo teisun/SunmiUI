@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="54dp">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="19dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TEST"
+            android:textColor="@color/C222222"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/text_bottom"
+            android:layout_below="@id/text_top"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:textColor="@color/C999999"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <sunmi.sunmiui.button.ButtonSwitch
+        android:id="@+id/set_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="19dp"
+        android:switchMinWidth="0dip"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee" />
+
+</RelativeLayout>

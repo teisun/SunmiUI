@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_contents"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="简单共享元素动画"
+        android:textSize="30sp"
+        android:transitionName="test" />
+</LinearLayout>

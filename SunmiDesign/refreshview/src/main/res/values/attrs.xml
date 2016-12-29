@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="sunmi_matProg_progressIndeterminate" format="boolean" />
+        <attr name="sunmi_matProg_barColor" format="color" />
+        <attr name="sunmi_matProg_rimColor" format="color" />
+        <attr name="sunmi_matProg_rimWidth" format="dimension" />
+        <attr name="sunmi_matProg_spinSpeed" format="float" />
+        <attr name="sunmi_matProg_barSpinCycleTime" format="integer" />
+        <attr name="sunmi_matProg_circleRadius" format="dimension" />
+        <attr name="sunmi_matProg_fillRadius" format="boolean" />
+        <attr name="sunmi_matProg_barWidth" format="dimension" />
+        <attr name="sunmi_matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+</resources>

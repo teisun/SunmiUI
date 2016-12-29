@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="小标题"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:background="#f0f0f0"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <ListView
+        android:id="@+id/list_view"
+        android:dividerHeight="0.5dp"
+        android:divider="@drawable/sunmi_list_divider_v1_9_16"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e5e5e5"/>
+
+
+</LinearLayout>

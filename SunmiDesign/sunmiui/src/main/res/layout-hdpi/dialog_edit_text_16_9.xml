@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg_t1" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="37.3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="2dp"
+        android:maxLines="4"
+        android:textColor="@color/C666666"
+        android:textSize="21.3sp"
+        android:text="我是中文我是中文我是中文我是中文"
+        />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="37.3dp"
+        android:layout_marginRight="37.3dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="37.3dp"
+        >
+
+        <EditText
+            android:textSize="16sp"
+            android:textColor="@color/C222222"
+            android:layout_toLeftOf="@+id/clear"
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_cursor_color_click" />
+
+        <ImageView
+            android:layout_above="@+id/line"
+            android:id="@+id/clear"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/clear" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/edit"
+            android:layout_marginTop="7dp"
+            android:background="@color/CD2D2D2" />
+    </RelativeLayout>
+
+    <include layout="@layout/dialog_bottom_16_9" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="274dp"
+    android:layout_height="40dp">
+
+    <EditText
+        android:id="@+id/edit"
+        android:hint="请输入用户名"
+        android:paddingRight="40dp"
+        style="@style/edit" />
+
+    <RelativeLayout
+        android:id="@+id/rel_clear"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right">
+        <ImageView
+            android:layout_width="15.5dp"
+            android:layout_centerInParent="true"
+            android:layout_height="15.5dp"
+            android:src="@drawable/clear"/>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_error"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_server_error"/>
+
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:layout_marginTop="32dp"
+        android:text="网络抛锚了"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/text_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#888888"
+        android:layout_marginTop="16dp"
+        android:text="点击屏幕重新尝试"
+        android:textSize="14sp"/>
+
+</LinearLayout>

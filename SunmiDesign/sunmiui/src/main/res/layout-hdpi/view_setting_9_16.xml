@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:background="@drawable/ripple_bg_item"
+    android:layout_width="match_parent"
+    android:layout_height="54dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上音量键"
+            android:textColor="@color/C222222"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/text_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/C999999"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/enter"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="19dp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee" />
+</RelativeLayout>

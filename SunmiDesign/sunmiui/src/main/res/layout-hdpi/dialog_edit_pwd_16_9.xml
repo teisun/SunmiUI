@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg_t1">
+
+    <TextView
+        android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:gravity="center_horizontal"
+    android:lineSpacingExtra="2dp"
+    android:maxLines="4"
+    android:textColor="@color/C666666"
+    android:textSize="21.3sp"
+        android:layout_marginTop="37.3dp"
+        android:text="我是中文我是中文我是中文我是中文" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="37.3dp"
+        android:layout_marginLeft="37.3dp"
+        android:layout_marginRight="37.3dp"
+        android:layout_marginTop="43dp">
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/rel_clear"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/C222222"
+            android:textCursorDrawable="@drawable/edit_cursor_color_click"
+            android:textSize="18.6sp" />
+
+        <RelativeLayout
+            android:id="@+id/rel_clear"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="42dp">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/clear" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/eye"
+            android:layout_width="34dp"
+            android:layout_height="12dp"
+            android:layout_above="@+id/line"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/eye_no" />
+
+        <View
+            android:id="@+id/eye_region"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-10dp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/edit"
+            android:layout_marginTop="9dp"
+            android:background="@color/CD2D2D2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:layout_marginLeft="37.3dp"
+        android:layout_marginTop="-32dp"
+        android:text="密码错误"
+        android:textColor="@color/FF0000"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+    <include layout="@layout/dialog_bottom_16_9" />
+
+</RelativeLayout>

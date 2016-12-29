@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SunmiDesign.iml" filepath="$PROJECT_DIR$/SunmiDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flexible/flexible.iml" filepath="$PROJECT_DIR$/flexible/flexible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refreshview/refreshview.iml" filepath="$PROJECT_DIR$/refreshview/refreshview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunmiui/sunmiui.iml" filepath="$PROJECT_DIR$/sunmiui/sunmiui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheelview/wheelview.iml" filepath="$PROJECT_DIR$/wheelview/wheelview.iml" />
+    </modules>
+  </component>
+</project>

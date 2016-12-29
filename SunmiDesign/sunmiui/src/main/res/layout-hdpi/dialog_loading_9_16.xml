@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="134dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_loading_bg" >
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/progress"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:src="@drawable/progress_round" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_below="@+id/progress"
+                android:id="@+id/msg"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="请稍后...请稍后...请稍后..."
+                android:textColor="@color/F0F0F0"
+                android:textSize="14sp" />
+
+</RelativeLayout>

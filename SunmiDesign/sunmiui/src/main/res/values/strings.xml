@@ -1,0 +1,8 @@
+<resources>
+    <string name="sunmiUI">sunmiUI</string>
+    <string name="net_error">Network is unstable</string>
+    <string name="server_error">Server is unstable</string>
+    <string name="no_order">No order</string>
+    <string name="click_screen_try">Click on the screen to try again</string>
+    <string name="loading">loading...</string>
+</resources>

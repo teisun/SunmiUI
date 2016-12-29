@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="sunmi_indicatorColor" format="color" />
+        <attr name="sunmi_underlineColor" format="color" />
+        <attr name="sunmi_dividerColor" format="color" />
+        <attr name="sunmi_indicatorHeight" format="dimension" />
+        <attr name="sunmi_underlineHeight" format="dimension" />
+        <attr name="sunmi_dividerPadding" format="dimension" />
+        <attr name="sunmi_tabPaddingLeftRight" format="dimension" />
+        <attr name="sunmi_scrollOffset" format="dimension" />
+        <attr name="sunmi_tabBackground" format="reference" />
+        <attr name="sunmi_shouldExpand" format="boolean" />
+        <attr name="sunmi_textAllCaps" format="boolean" />
+    </declare-styleable>
+
+</resources>

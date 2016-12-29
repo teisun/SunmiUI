@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sunmi.sunmidesign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WheelActivity" />
+        <activity android:name=".ErrorActivity" />
+        <activity android:name=".TabActivity" />
+        <activity android:name=".TitleListActivity" />
+        <activity android:name=".fragment.MyFragmentActivity" />
+        <activity android:name=".BannerActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".RefreshListActivity" />
+        <activity android:name=".FlexibleActivity" />
+        <activity android:name=".DownUpActivity" />
+        <activity
+            android:name=".transitions.TransitionHomeActivity"
+            android:theme="@style/myTheme"></activity>
+        <activity
+            android:name=".transitions.SimpleSharedTransitionActivity"
+            android:theme="@style/myTheme"></activity>
+        <activity
+            android:name=".transitions.CustomSharedTransitionActivity"
+            android:theme="@style/myTheme"></activity>
+        <activity
+            android:name=".transitions.ImageSharedTransitionActivity"
+            android:theme="@style/myTheme"></activity>
+    </application>
+
+</manifest>

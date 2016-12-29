@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="BannerLayout">
+        <attr name="size" format="integer" />
+        <attr name="childWidth" format="integer" />
+        <attr name="childHeight" format="integer" />
+    </declare-styleable>
+</resources>

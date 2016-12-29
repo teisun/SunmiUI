@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="274dp"
+    android:layout_height="40dp">
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edit"
+        style="@style/edit"
+        android:hint="请输入密码"
+        android:paddingRight="78dp"
+        />
+
+    <ImageView
+        android:layout_marginRight="11dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_above="@+id/line"
+        android:id="@+id/eye"
+        android:layout_width="21.45dp"
+        android:layout_height="12.35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/eye_no" />
+
+    <View
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/eye_region"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_clear"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="right">
+        <ImageView
+            android:layout_width="15.5dp"
+            android:layout_centerInParent="true"
+            android:layout_height="15.5dp"
+            android:src="@drawable/clear"/>
+    </RelativeLayout>
+
+</FrameLayout>

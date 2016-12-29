@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bgColor">
+
+    <RelativeLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_pb"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/progress_bg"
+            android:layout_centerInParent="true"/>
+
+        <sunmi.ui.refreshview.ProgressWheel
+            android:id="@+id/loading_pb"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            wheel:sunmi_matProg_barColor="@color/pbColor"
+            wheel:sunmi_matProg_progressIndeterminate="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nodata_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/layout_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="到底了，没更多数据了"
+            android:textColor="@color/C999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

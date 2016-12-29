@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:paddingTop="24dp"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/C666666"
+        android:text="商米科技"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dialog_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="音量键可设置为快捷扫码键，\n是否前去设置？"
+        android:textColor="#222222"
+        android:textSize="14sp" />
+
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/dialog_msg"
+        android:layout_marginTop="28dp"
+        android:background="#dedede" />
+
+    <LinearLayout
+        android:id="@+id/custom_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/horizontal_line"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_bg_left_bottom"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#222222"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/line_view"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_bg_right_bottom"
+            android:gravity="center"
+            android:text="去设置"
+            android:textColor="#222222"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

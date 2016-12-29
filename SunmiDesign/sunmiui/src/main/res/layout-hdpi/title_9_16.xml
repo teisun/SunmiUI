@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#2878F0"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="32dp"
+        android:clickable="true"
+        android:background="@drawable/ripple_bg_item1">
+
+        <ImageView
+            android:id="@+id/back_ib"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back_white" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/back"
+        android:layout_toEndOf="@+id/back" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/rel_add"
+            android:background="@drawable/ripple_bg_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_add"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:src="@drawable/ic_add_white"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_reduce"
+            android:background="@drawable/ripple_bg_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/btn_reduce"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_j_white"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_menu"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/ripple_bg_item1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="12dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:src="@drawable/ic_more_white"/>
+    </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

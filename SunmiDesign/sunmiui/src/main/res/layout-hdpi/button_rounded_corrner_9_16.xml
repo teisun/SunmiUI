@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="274dp"
+    android:layout_height="40dp"
+    android:background="@drawable/selector_round_corner">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
